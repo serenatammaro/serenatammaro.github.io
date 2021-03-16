@@ -24,3 +24,18 @@ footer {
 
 #slides {margin-bottom:10px;}
 #tourDates {margin-top: 10px;}
+
+.carousel_max {
+    max-width: 50vw;
+    max-height: 50vh;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel_max img {
+    object-fit: contain;
+    object-position: 50% 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
